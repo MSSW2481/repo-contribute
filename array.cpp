@@ -1,4 +1,4 @@
-#include <iostream.>
+#include<iostream>
 using namespace std;
 #define max 10
 int main()
@@ -8,11 +8,7 @@ int main()
 //	cout.set(ios::right);
 	for(index=0;index<max;index++)
 	{
-		cout<<endl<<"the elements of array element are.."<<endl;
-		cout.width(10);
-		cout <<(index +1)<<"is";
-		cout<<number[index];	
+		cout<<endl<<"the elements of array index "<<(index +1)<<" is "<<number[index];
 	}
-		cout <<endl<<endl;
 	return 0;
 }
