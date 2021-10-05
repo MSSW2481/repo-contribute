@@ -15,4 +15,9 @@ int main()
 	}
 		cout <<endl<<endl;
 	return 0;
+	//hey bro its me and i will change this file
 }
+cout<<endl<<"the elements of array element are.."<<endl;
+		cout.width(10);
+		cout <<(index +1)<<"is";
+		cout<<number[index];
